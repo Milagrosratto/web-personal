@@ -844,7 +844,7 @@ font-size: 30%;
   background:transparent ;
 } 
 
-#liveToastBtn #wsp a{
+#wsp{
 	color: #fff;
 	text-decoration: none;
 	font-weight: bold;
