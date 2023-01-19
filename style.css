@@ -744,10 +744,7 @@ font-size: 1.3em;
     background: linear-gradient(#fff,#fff ,rgb(145, 201, 228), rgb(145, 201, 228),#fff,#fff);
    
   }*/
-  p.text_azul, p.text_rojo{
-	font-size: 3em;
-	
-  }
+  
 
 @media screen and (max-width: 800px) {
 	body {
@@ -792,74 +789,6 @@ font-size: 1.3em;
   color: #fff;
   text-decoration: none;
 }
-.cardBox {
-  text-align: center;
-  font-size: 1.2em;
-  margin: 50px auto;
-  perspective: 800px;
-  transition: all 0.3s ease 0s;
-  width:40%;
- 
-}
-.cardBox:hover .card {
-  transform: rotateY(180deg);
-}
-.card {
-  background-color: #101096;
-  cursor: default;
-  height: 100%;
-  min-height: 700px;
-  transform-style: preserve-3d;
-  transition: transform 0.4s ease 0s;
-  width: 100%;
-  min-width: 200px;
-  color: #fff;
-  
-  -webkit-animation: giro 1s 1;
-  animation: giro 1s 1;
-  border-radius: 30px;
-}
-.front, .back {
-  background: #0e047d;
-  border-radius: 30px;
-  backface-visibility: hidden;
-  box-sizing: border-box;
-  color: white;
-  display: block;
-  font-size: 1.2em;
-  height: 100%;
-  padding: 0.8em;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-}
-.back {
-  transform: rotateY( 180deg);
-}
-#quienSoy h1 {
-  background: rgb(76, 75, 75);
-  color: #fff;
-  border-radius: 40px;
-  text-align: center;
-  margin: 0 0 5% 0;
-  padding: 0.5em;
-  margin: 0 0 5% 0;
-  font-size: 70%;
-  font-weight: bold;
-}
-#quienSoy h2{
-  font-size: 70%;
-  font-weight: bold;
-  color: #fff;
-}
- 
-#quienSoy p {
-  margin-bottom: 1.8em;
-  font-size: 50%;
-  font-weight: bold;
-  color: #fff;
-}
- 
 strong {
   
   border-radius: 100%;
@@ -914,3 +843,9 @@ font-size: 30%;
 #accordionFlushExample{
   background:transparent ;
 } 
+
+#liveToastBtn a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
