@@ -857,3 +857,6 @@ font-size: 30%;
 	z-index: 100;
 	display:block;
 }
+#offcanvasWithBothOptionsLabel{
+	font-weight: bold;
+}
