@@ -860,3 +860,24 @@ font-size: 30%;
 #offcanvasWithBothOptionsLabel{
 	font-weight: bold;
 }
+#avatar{
+	margin-left: auto;
+	padding: 0%;
+	border-radius: 30%;
+	background-color:   lightblue;
+	
+	}
+#avatar:hover{
+		transform:rotate(10deg);
+		transition: 5s, 5s;
+		background: #0e047d;
+		border-radius: 50%;
+		-ms-transform:rotate(10deg); /* IE 9 */
+		-webkit-transform:rotate(10deg); /* Opera, Chrome, and Safari */
+		padding: -30px;
+		
+		}
+#card1, #card2{
+background:lightblue;
+
+		}
