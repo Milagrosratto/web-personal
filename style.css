@@ -878,6 +878,16 @@ font-size: 30%;
 		
 		}
 #card1, #card2{
-    background:lightblue;
-
-		}
+    background:#0e047d;
+	color: #fff;
+	}
+#tituloTrabajos{
+	color:#0e047d;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 10px;
+	margin: 30px;
+	background: linear-gradient(to right,#fff,#fff,lightblue,lightblue, lightblue, lightblue, #fff,#fff) ;
+	
+	
+}
