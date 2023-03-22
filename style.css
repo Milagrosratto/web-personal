@@ -858,8 +858,8 @@ font-size: 30%;
 	
 	font-size: 30px;
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
-	z-index: 100;
-padding: 0;	
+	z-index: 200;
+    padding: 0;	
 }
 .btn-wsp:hover{
 text-decoration: none;
