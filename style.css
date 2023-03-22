@@ -865,6 +865,7 @@ padding: 0;
 text-decoration: none;
 color:rgb(18, 205, 18) ;
 background: #fff;
+z-index: 100;
 }
 #info {
 	position: absolute;
