@@ -845,9 +845,21 @@ font-size: 30%;
 } 
 
 #wsp{
-	color: #fff;
-	text-decoration: none;
-	font-weight: bold;
+	
+	
+	background: transparent;
+	border-color: transparent;
+	border-radius: 50%;
+
+}
+#ico_wsp{
+	position: fixed;
+	width: 5%;
+	height: 7%;
+	right: 3%;
+	bottom: 3%;
+	opacity: 100%;
+	
 }
 #info {
 	position: absolute;
@@ -890,4 +902,41 @@ font-size: 30%;
 	background: linear-gradient(to right,#fff,#fff,lightblue,lightblue, lightblue, lightblue, #fff,#fff) ;
 	
 	
+}
+#container3d{
+	display: flex;
+	transform-style: preserve-3d;
+	gap: 10px;
+	transform: rotateY(30deg) rotateX(10deg);
+}
+#text3d{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	transform-style: preserve-3d;
+}
+#text3d::before{
+	
+position: absolute;
+width: 100%;
+height: 100%;
+background: red;
+transform-origin: left;
+transform: rotateY(90deg)traslateX(-50px);
+}
+#text3d span{
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #0e047d;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	transform-style: preserve-3d;
+	transform: rotateX(calc(90deg * var(--i))) translateZ(50px);
 }
