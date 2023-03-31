@@ -231,7 +231,7 @@ li{
 }
 /* ETIQUETA GRANDE*/
 .etiq-grande{
-	height: calc(30% - 200px);
+	height: calc(30% - 100px);
 	width: 100%;
 	
 	display:  inline-block;
@@ -248,7 +248,7 @@ li{
 	margin: auto;
 	background:linear-gradient(to right,hsl(240, 98%, 18%),hsl(240, 98%, 18%), #5CE1E6 ) ;
 	border-radius:  120px 200px 5px 120px;
-	height: 15%;
+	height: 65%;
 	/*max-height: 250px;*/
 	width: 80%;
 	
@@ -341,7 +341,8 @@ li{
 	border-color: linear-gradient(to right,rgb(121, 177, 221),rgb(0, 0, 129) ) ;
 	background:linear-gradient(to right,rgb(0, 0, 129),rgb(121, 177, 221) ) ;
 	border-radius: 5px 5px 20px 5px;
-	height: 45%;
+	height: 100%;
+	
 	width: 15%;
 	text-align: center;
 	padding: 2px;
@@ -353,14 +354,14 @@ li{
 	border-color:linear-gradient(to right,rgb(0, 0, 129),rgb(121, 177, 221) )  ;
 	background: linear-gradient(to right,rgb(121, 177, 221),rgb(0, 0, 129) ) ;
 	border-style: solid;
-
-	
+    
 }
 .contenedor-etiq-grande .familia{
 	
 	margin-bottom: 0px;
-	height:10%;
-	width: 50%;
+	height: 100%;
+    
+	width: 30%;
 	position:relative;
 	left: 30%;
 	right: 30%;
