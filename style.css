@@ -946,3 +946,16 @@ transform: rotateY(90deg)traslateX(-50px);
 	transform-style: preserve-3d;
 	transform: rotateX(calc(90deg * var(--i))) translateZ(50px);
 }
+#menu-card{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: linear-gradient(to left,hsl(216, 98%, 52%,0.507 ), hsla(240, 88%, 17%, 0.699)),url(https://images.unsplash.com/photo-1488751045188-3c55bbf9a3fa?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=andrew-neel-QLqNalPe0RA-unsplash.jpg);
+	
+}
